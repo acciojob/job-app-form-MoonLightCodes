@@ -1,2 +1,70 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. *//* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form container styling */
+form {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Form elements spacing */
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+form input, form select, form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Radio buttons and checkboxes styling */
+form input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+form input[type="radio"] + label {
+  display: inline-block;
+  font-weight: normal;
+}
+
+/* Submit button styling */
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 600px) {
+  form {
+    padding: 15px;
+  }
+}
